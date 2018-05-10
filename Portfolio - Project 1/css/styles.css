@@ -1,0 +1,99 @@
+body {
+  font-family: courier;
+  background-color: #fff;
+}
+
+header {
+  padding: 5px;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section {
+  padding-bottom: 5px;
+}
+
+header .container {
+  display: flex;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  padding-top: 30px;
+}
+
+.name {
+  text-align: right;
+  margin-left: auto;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+hr {
+  height: 3px;
+  color: #000;
+  background-color: #000;
+}
+
+.hero-box img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  padding-top: 14px;
+}
+
+.feature-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.feature-pixel img {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+  height: auto;
+}
+
+.feature-ipone img {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+  height: auto;
+}
+
+.feature-iptwo img {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+  height: auto;
+}
+
+p {
+  word-wrap: break-word;
+  width: 150px;
+  text-align: left;
+}
